@@ -17,8 +17,8 @@ body{
 .card{
     display: flex;
     flex-direction: column;
-    width: 380px;
-    height: 370px;
+    width: 370px;
+    height: 330px;
     padding: 25px;
     margin-bottom: 50px;
     border-radius: 30px;
