@@ -33,21 +33,11 @@
     
     </div>
     <div class="rating">
-      <div class="circular-div">
-        1
-      </div>
-      <div class="circular-div">
-        2
-      </div>
-      <div class="circular-div">
-        3 
-      </div>
-      <div class="circular-div">
-        4
-      </div>
-      <div class="circular-div">
-        5
-      </div>
+      <div class="circular-div" onclick="setRating(1)">1</div>
+      <div class="circular-div" onclick="setRating(2)">2</div>
+      <div class="circular-div" onclick="setRating(3)">3</div>
+      <div class="circular-div" onclick="setRating(4)">4</div>
+      <div class="circular-div" onclick="setRating(5)">5</div>
   </div>
   <button onclick="thankyouvisible()">SUBMIT</button> 
   </div>
@@ -56,7 +46,7 @@
   <img src="images/illustration-thank-you.svg" alt="thankyou-image" class="thankyou-img" style="width: 40%; margin-bottom: 30px; margin-top: 20px;">
 
   <div class="selected-rating">You selected <span id="display-rating">3</span> out of 5</div>
-                
+
  <h1 style="margin-top: 20px;">Thank you!</h1>
  
 <p style="text-align: center; line-height: 1.5; ">
