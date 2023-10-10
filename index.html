@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+
   
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -19,49 +20,58 @@
 
   <!-- Rating state start -->
 <div class="card">
-  <div class="circular-div" style="margin-left: 15px;">
-    <img src="images/icon-star.svg" alt="star" class="star">
-  </div>
-  <div>
-    <h1>How did we do?</h1>
+  <div class = "first-state">
 
-    <p>Please let us know how we did with your support request. All feedback is appreciated 
-      to help us improve our offering!</p>
+    <div class="circular-div" style="margin-left: 15px;">
+      <img src="images/icon-star.svg" alt="star" class="star">
+    </div>
+    <div>
+      <h1>How did we do?</h1>
   
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+    
+    </div>
+    <div class="rating">
+      <div class="circular-div">
+        1
+      </div>
+      <div class="circular-div">
+        2
+      </div>
+      <div class="circular-div">
+        3 
+      </div>
+      <div class="circular-div">
+        4
+      </div>
+      <div class="circular-div">
+        5
+      </div>
   </div>
-  <div class="rating">
-    <div class="circular-div">
-      1
-    </div>
-    <div class="circular-div">
-      2
-    </div>
-    <div class="circular-div">
-      3 
-    </div>
-    <div class="circular-div">
-      4
-    </div>
-    <div class="circular-div">
-      5
-    </div>
-</div>
+  <button onclick="thankyouvisible()">SUBMIT</button> 
+  </div>
 
- <button>SUBMIT</button> 
+ <div class="thankyou-state">
+  <img src="images/illustration-thank-you.svg" alt="thankyou-image" class="thankyou-img" style="width: 40%; margin-bottom: 30px; margin-top: 20px;">
+
+  <div class="selected-rating">You selected <span id="display-rating">3</span> out of 5</div>
+                
+ <h1 style="margin-top: 20px;">Thank you!</h1>
+ 
+<p style="text-align: center; line-height: 1.5; ">
+We appreciate you taking the time to give a rating. If you ever need more support, 
+don’t hesitate to get in touch!
+</p>
+  
+ </div>
+
 </div>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
 
-  <div class="thankyou-state">
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-  
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-</div>
 
   <!-- Thank you state end -->
 
@@ -70,5 +80,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Hardikk Kamboj</a>.
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
