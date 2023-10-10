@@ -115,3 +115,36 @@ button:active{
     cursor: pointer;
     color: #eef3f5; /* Change background color when clicked */
   }
+
+  /* Media query for mobile devices */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px; /* Reduce the font size for better mobile readability */
+    }
+
+    .circular-div{
+        width: 50px;
+        height: 50px;
+        margin-right: 11px;
+      
+    }
+    
+    p{
+        margin-left:5px;
+        max-width: 300px;
+    }
+    .card{
+        width: 350px;
+        height: 370px;
+    }
+    button {
+      font-size: 14px; /* Example font size for buttons on mobile */
+      margin-left: 0; /* Remove left margin on mobile */
+    }
+  }
+  @media (max-width: 768px) {
+    .card{
+        width: 320px;
+        height: 340px;
+    }
+  }
