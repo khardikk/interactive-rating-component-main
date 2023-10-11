@@ -130,7 +130,7 @@ button:active{
     }
     
     p{
-        margin-left:10px;
+        margin-left:12px;
         max-width: 300px;
     }
     .card{
@@ -139,7 +139,7 @@ button:active{
     }
     button {
       font-size: 14px; /* Example font size for buttons on mobile */
-      margin-left: 0; /* Remove left margin on mobile */
+      margin-left: 10px; /* Remove left margin on mobile */
     }
   }
   @media (max-width: 768px) {
